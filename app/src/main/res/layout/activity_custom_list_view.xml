@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="400dp"
+    android:layout_gravity="center"
+    android:backgroundTint="@color/quantum_purple50"
+    android:layout_height="400dp"
+    android:elevation="10dp"
+    android:padding="10dp"
+    app:cardCornerRadius="25dp"
+    tools:context=".CustomListView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/tailer2"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/trip2"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_edittext3"
+            android:contextClickable="true"
+            android:elevation="10dp"
+            android:gravity="center"
+            android:outlineAmbientShadowColor="@color/tv_total_Max"
+            android:outlineSpotShadowColor="@color/tv_total_Max"
+            android:shadowColor="#021653"
+            android:text="TRIP 2 "
+            android:textColor="#043C80"
+            android:textColorLink="@color/tv_total_Max"
+            android:textSize="20sp"
+            app:layout_constraintHorizontal_bias="0.444"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+
+        <at.grabner.circleprogress.CircleProgressView
+            android:id="@+id/l2p2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            app:cpv_barColor="#C20303"
+            app:cpv_barColor1="#FF9800"
+            app:cpv_barColor2="#A6C12E"
+            app:cpv_barColor3="#08D321"
+            app:cpv_barWidth="4dp"
+            app:cpv_innerContourColor="#A0DEFB"
+            app:cpv_outerContourColor="#A0DEFB"
+            app:cpv_rimColor="#75CDF6"
+            app:cpv_rimWidth="3dp"
+            app:cpv_spinColor="@color/tv_total_Max"
+            app:cpv_textMode="Value"
+            app:cpv_textSize="13dp" />
+
+        <TextView
+            android:id="@+id/dist2"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_edittext2"
+            android:elevation="10dp"
+            android:gravity="center"
+            android:text="47 km "
+            android:textColor="#043C80"
+            android:textSize="16dp"
+            app:layout_constraintHorizontal_bias="0.444"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/time2"
+            android:layout_width="90dp"
+            android:layout_height="35dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_bg"
+            android:elevation="10dp"
+            android:gravity="center"
+            android:text="  1 hr 7 min  "
+            android:textColor="#043C80"
+            android:textSize="16dp"
+            app:layout_constraintHorizontal_bias="0.444"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
